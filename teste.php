@@ -1,9 +1,7 @@
 <?php
-$x = 10;
-$idade = 10.6;
+$idade = 22;
 $nome = " Maycon ";
 $sobrenome = " Tenchini ";
-echo " Nome: ", $nome , " Idade: "  ,$idade;
-echo "   ";
-echo $nome." ".$sobrenome;
+$frase = "$nome $sobrenome  tem $idade anos  ";
+echo $frase;
 
